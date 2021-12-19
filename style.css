@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 60vw;
+    height: 50vh;
+    object-fit: cover;
+}
+
+button{
+    padding: .5rem .8rem;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.text{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 1rem 0;
+    color: rgb(236, 18, 18);
+}
